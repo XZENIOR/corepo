@@ -32,3 +32,9 @@ function checkCountValue() {
         notified10 = true;
     }
 }
+
+function countReset() {
+    count = 0;
+    alert("Счётчик сброшен!");
+    displayCount();
+}
