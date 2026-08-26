@@ -38,3 +38,8 @@ function countReset() {
     alert("Счётчик сброшен!");
     displayCount();
 }
+
+  document.getElementById('myForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevents the default form submission behavior
+    console.log('Form submitted!');
+  });
